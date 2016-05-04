@@ -30,5 +30,6 @@ $ docker run -e OMNIBUS_PROJECT=${PROJECT_NAME} -v pkg:/home/omnibus/omnibus-pro
 ```
 
 Packages will be created in `./pkg/` directory.
+
 !!! You must have already created pkg dir in your omnibus-project root at localhost.
 
