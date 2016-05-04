@@ -23,7 +23,9 @@ $ docker build -t omnibus_project-ubuntu1204 -f Dockerfile.ubuntu1204 .
 ## Run to create package!
 
 Set your package dir `OMNIBUS_PACKAGE_DIR=/home/user/omnibus-project/pkg`, to be able to set packages volume.
+
 !!! You must have already created `pkg` dir in your omnibus-project root at localhost.
+
 Run with passing your project name via env `OMNIBUS_PROJECT`.
 
 ```
